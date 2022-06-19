@@ -1,3 +1,7 @@
+body{
+  background-color: #212121;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -22,6 +26,8 @@
   text-align: center;
   color: gray;
   margin-top: 16px;
+  border:solid;
+  border-radius: 16px;
 }
 
 .waveButton {
@@ -30,5 +36,21 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
+  background: green;
+  font-size: 1.2em;
   
+}
+
+.error {
+  color: red;
+  margin: 1em 0;
+  height: 2em;
+}
+
+input {
+  height: 2em;  
+}
+
+.disabled {
+  opacity: 0.5;
 }
